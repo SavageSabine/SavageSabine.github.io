@@ -1,62 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sabine's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Sabine's Portfolio</title>
 </head>
 <body>
-    
-    <section class="container">
+  <div class="container">
+
         <img src="batman1.png" id="batman-pic" alt="a black batman logo">
-
-        <nav>
-
-            <button id="aboutB"><a href="#about">ABOUT</a></button>
-            <button id="infoB"><a href="#info">CITY INFO</a></button>
-            <button id="idkB"><a href="#idk">IDK</a></button>
-            <button id="goalsB"><a href="#goals">GOALS</a></button>
-            
-        </nav>
-
-        <section class="content">
-
-            <header id="header">
-                <h1>Sabine's Portfolio</h1>
-            </header>
-
-
-
-
-            <section id="about">
-                <p id="secHeader">About</p>
-                <p>I am Batman.</p>
-            </section>
-
-            <section id="info">
-                <p id="secHeader">City Info</p>
-                <p> learn more about Gothem City <a href="https://en.wikipedia.org/wiki/Gotham_City">HERE</a></p>
-            </section>
-
-            <section id="idk">
-                <p>idk</p>
-            </section>
-
-            <section id="goals">
-                <p id="secHeader">Goals:</p>
-                <ul>
-                    <li>Save Gothem City</li>
-                    <li>Be dark and mysterious</li>
-                </ul>
-            </section>
-
-        </section>
-
-    </section>
-
-
     
 
+    <nav>
+      <button id="aboutB"><a href="#about">ABOUT</a></button>
+      <button id="infoB"><a href="#info">CITY INFO</a></button>
+      <button id="idkB"><a href="#idk">IDK</a></button>
+      <button id="goalsB"><a href="#goals">GOALS</a></button>
+    </nav>
+
+    <div class="content">
+      <header id="header">
+        <h1>Sabine's Portfolio</h1>
+      </header>
+
+      <section id="about" class="section-box">
+        <p class="secHeader">About:</p>
+        <p>I am Batman.</p>
+      </section>
+
+      <section id="info" class="section-box">
+        <p class="secHeader">City Info:</p>
+        <p>Learn more about Gotham City <a href="https://en.wikipedia.org/wiki/Gotham_City">HERE</a></p>
+      </section>
+
+      <section id="idk" class="section-box">
+        <p>IDK</p>
+      </section>
+
+      <section id="goals" class="section-box">
+        <p class="secHeader">Goals:</p>
+        <ul>
+          <li>Save Gotham City</li>
+          <li>Be dark and mysterious</li>
+        </ul>
+      </section>
+
+      <div class="bat-signal">🦇</div>
+
+    </div>
+  </div>
 </body>
 </html>
